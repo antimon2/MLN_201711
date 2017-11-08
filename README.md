@@ -18,27 +18,45 @@ $ git pull antimon2/mln201711
 for Linux/macOS:
 
 ```
-$ ./run_jupyter.sh
+$ ./docker.run.jupyter.sh
+```
+
+or for Windows:
+
+```
+PS> .\docker.run.jupyter.bat
 ```
 
 and then open `http://localhost:8888/`
 
 ### Run TensorBoard (for Histogram Demo)
 
-Run all of `Histogram_Sample.ipynb` and execute (for Linux/macOS):
+Run all of `Histogram_Sample.ipynb` and execute (for Linux/macOS:
 
 ```
-$ run_tensorboard_histogram_demo.sh
+$ ./docker.run.tensorboard.histogram_demo.sh
+```
+
+or for Windows):
+
+```
+PS> .\docker.run.tensorboard.histogram_demo.bat
 ```
 
 and then open `http://localhost:6006/`
 
 ### Run TensorBoard (for MNIST Demo)
 
-Run all of `MNIST_Sample.ipynb` and execute (for Linux/macOS):
+Run all of `MNIST_Sample.ipynb` and execute (for Linux/macOS:
 
 ```
-$ run_tensorboard_mnist_demo.sh
+$ ./docker.run.tensorboard.mnist_sample.sh
+```
+
+or for Windows):
+
+```
+PS> .\docker.run.tensorboard.mnist_sample.bat
 ```
 
 and then open `http://localhost:6006/`
